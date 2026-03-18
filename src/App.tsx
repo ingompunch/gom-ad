@@ -88,7 +88,7 @@ export default function App() {
         <div className="relative w-full px-4 md:px-8 lg:px-12">
           <div className="flex justify-between items-center h-14 md:h-16">
             <div className="flex-shrink-0 flex items-center gap-4 cursor-pointer">
-              <img src="/곰5.png" alt="Gom ad Logo" className="h-8 md:h-10 w-auto object-contain" referrerPolicy="no-referrer" />
+              <img src="./곰5.png" alt="Gom ad Logo" className="h-8 md:h-10 w-auto object-contain" referrerPolicy="no-referrer" />
               <div className="hidden md:flex gap-6">
                 <button className="flex items-center gap-1 text-[14px] font-medium text-white hover:text-orange-500 transition-colors">
                   회사소개서 <Download className="w-3.5 h-3.5" />
@@ -121,7 +121,7 @@ export default function App() {
             className="w-full h-full object-cover object-center opacity-80"
           >
             {/* 메인 배경 영상 */}
-            <source src="/Gom.mp4" type="video/mp4" />
+            <source src="./Gom.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/20 to-black z-0" />
