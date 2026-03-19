@@ -88,7 +88,7 @@ export default function App() {
         <div className="relative w-full px-4 md:px-8 lg:px-12">
           <div className="flex justify-between items-center h-14 md:h-16">
             <div className="flex-shrink-0 flex items-center gap-4 cursor-pointer">
-              <img src="/곰5.png" alt="Gom ad Logo" className="h-8 md:h-10 w-auto object-contain" referrerPolicy="no-referrer" />
+              <img src="./gom5.png" alt="Gom ad Logo" className="h-8 md:h-10 w-auto object-contain" referrerPolicy="no-referrer" />
               <div className="hidden md:flex gap-6">
                 <button className="flex items-center gap-1 text-[14px] font-medium text-white hover:text-orange-500 transition-colors">
                   회사소개서 <Download className="w-3.5 h-3.5" />
@@ -121,7 +121,7 @@ export default function App() {
             className="w-full h-full object-cover object-center opacity-80"
           >
             {/* 메인 배경 영상 */}
-            <source src="/Gom.mp4" type="video/mp4" />
+            <source src="./gom.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/20 to-black z-0" />
@@ -377,9 +377,9 @@ export default function App() {
               { img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop", client: "B 어플 스타트업", title: "신규 유저 유입구조 변화", result: "신규 유저 500%유입 증가" },
               { img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2071&auto=format&fit=crop", client: "C 인테리어 스타트업", title: "포지셔닝 변환", result: "수익률 250% 증가" },
               { img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop", client: "D 부동산 스타트업", title: "브랜딩으로 수익구조 전환", result: "업계 최고 성장률" },
-              { img: "/유짓수1.PNG", client: "유짓수", title: "유튜브 채널 성장 전략", result: "콘텐츠로 판매량 급등" },
-              { img: "/유짓수2.png", client: "유짓수", title: "콘텐츠 바이럴 마케팅", result: "콘텐츠로 판매량 급등" },
-              { img: "/애니멀봐1.PNG", client: "애니멀봐", title: "조회수 1000만은 만들어 본 사람이 또 만듭니다", result: "1000만 조회수 달성", featured: true }
+              { img: "./yoo1.PNG", client: "유짓수", title: "유튜브 채널 성장 전략", result: "콘텐츠로 판매량 급등" },
+              { img: "./yoo2.png", client: "유짓수", title: "콘텐츠 바이럴 마케팅", result: "콘텐츠로 판매량 급등" },
+              { img: "./animal1.PNG", client: "애니멀봐", title: "조회수 1000만은 만들어 본 사람이 또 만듭니다", result: "1000만 조회수 달성", featured: true }
             ].map((item, index) => (
               <motion.div 
                 key={index}
@@ -440,7 +440,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-12 md:gap-24 mb-12">
             <div className="flex-shrink-0 md:w-1/3">
               <div className="mb-4">
-                <img src="/곰5.png" alt="Gom ad Logo" className="h-32 md:h-40 w-auto object-contain" referrerPolicy="no-referrer" />
+                <img src="./gom5.png" alt="Gom ad Logo" className="h-32 md:h-40 w-auto object-contain" referrerPolicy="no-referrer" />
               </div>
               <p className="text-gray-400 font-medium tracking-wide ml-2">Small Beginnings, Great Endings.</p>
             </div>
